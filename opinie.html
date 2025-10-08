@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGUN — Porady i aktualności</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">BIGUN</a>
+            <nav class="main-nav" aria-label="Główna nawigacja">
+                <a href="index.html">Start</a>
+                <a href="uslugi.html">Dla pracownika</a>
+                <a href="projekty.html">Dla pracodawcy</a>
+                <a href="o-nas.html">O nas</a>
+                <a href="opinie.html" aria-current="page">Porady</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+            <div class="lang-switch" role="navigation" aria-label="Wybór języka">
+                <a class="lang active" href="opinie.html">PL</a>
+                <span aria-hidden="true">•</span>
+                <a class="lang" href="en/testimonials.html">EN</a>
+                <span aria-hidden="true">•</span>
+                <a class="lang" href="uk/vidguky.html">UA</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+            <a href="index.html">Start</a>
+            <a href="uslugi.html">Dla pracownika</a>
+            <a href="projekty.html">Dla pracodawcy</a>
+            <a href="o-nas.html">O nas</a>
+            <a href="opinie.html" aria-current="page">Porady</a>
+            <a href="kontakt.html">Kontakt</a>
+            <div class="mobile-lang-switch">
+                <a class="lang active" href="opinie.html">PL</a>
+                <a class="lang" href="en/testimonials.html">EN</a>
+                <a class="lang" href="uk/vidguky.html">UA</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-intro">
+                <nav class="breadcrumb" aria-label="Ścieżka powrotu">
+                    <a href="index.html">Start</a>
+                    <span>/</span>
+                    <span>Porady</span>
+                </nav>
+                <h1>Korzystne informacje dla kandydatów i firm</h1>
+                <p>Zebraliśmy najważniejsze wskazówki dotyczące legalnej pracy w Polsce, podpisywania umów oraz reagowania na trudne sytuacje w miejscu zatrudnienia.</p>
+            </div>
+        </section>
+
+        <section class="blog" id="artykuly">
+            <div class="container section-heading">
+                <span class="eyebrow">Artykuły</span>
+                <h2>Dowiedz się więcej</h2>
+            </div>
+            <div class="container blog-grid">
+                <article class="blog-card">
+                    <h3><a href="#">Jaki typ umowy wybrać przed rozpoczęciem pracy?</a></h3>
+                    <p>Porównujemy umowę o pracę, zlecenie oraz kontrakt B2B. Wskazujemy, kiedy każda z nich jest najbardziej opłacalna.</p>
+                </article>
+                <article class="blog-card">
+                    <h3><a href="#">Co zrobić, gdy pracodawca nie dotrzymuje obietnic?</a></h3>
+                    <p>Wyjaśniamy, jak reagować na nieuczciwe praktyki i jakie wsparcie zapewnia BIGUN swoim pracownikom.</p>
+                </article>
+                <article class="blog-card">
+                    <h3><a href="#">Przygotowanie do pierwszej zmiany w Polsce</a></h3>
+                    <p>Lista rzeczy, o których warto pamiętać przed przyjazdem: dokumenty, rachunki bankowe, ubezpieczenie zdrowotne.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container section-heading">
+                <span class="eyebrow">Opinie</span>
+                <h2>Rekomendacje klientów BIGUN</h2>
+            </div>
+            <div class="container testimonials-grid">
+                <article class="testimonial-card">
+                    <p>„Zespół BIGUN pomógł nam wypełnić lukę kadrową w szczycie sezonu. Pracownicy zostali świetnie przygotowani.”</p>
+                    <span class="author">Bożena Król, Dyrektor HR</span>
+                </article>
+                <article class="testimonial-card">
+                    <p>„Jako kandydat otrzymałem pełne wsparcie przy legalizacji i szybki kontakt z koordynatorem.”</p>
+                    <span class="author">Yurii Melnyk, Operator CNC</span>
+                </article>
+                <article class="testimonial-card">
+                    <p>„Polecam współpracę z BIGUN. To partner, który reaguje na potrzeby w czasie rzeczywistym.”</p>
+                    <span class="author">Katarzyna Pawlak, Plant Manager</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-inner">
+                <div>
+                    <span class="eyebrow">Masz temat do poruszenia?</span>
+                    <h2>Podziel się pytaniem lub historią</h2>
+                    <p>Napisz do nas, a nasi eksperci przygotują dedykowany materiał lub poradnik.</p>
+                </div>
+                <form class="contact-form">
+                    <label>
+                        Imię
+                        <input type="text" name="name" placeholder="Twoje imię" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                    <label>
+                        Temat
+                        <input type="text" name="subject" placeholder="O czym chcesz przeczytać?">
+                    </label>
+                    <label>
+                        Wiadomość
+                        <textarea name="message" rows="4" placeholder="Opisz swój pomysł"></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary">Wyślij</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a class="logo" href="index.html">BIGUN</a>
+                <p>Legalna praca w Polsce i leasing pracowniczy z BIGUN.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <span class="footer-heading">Oddziały</span>
+                    <ul>
+                        <li>Bydgoszcz</li>
+                        <li>Warszawa</li>
+                        <li>Kijów</li>
+                        <li>Berlin</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="footer-heading">Kontakt</span>
+                    <ul>
+                        <li><a href="mailto:hello@bigun.agency">hello@bigun.agency</a></li>
+                        <li><a href="tel:+48736067981">+48 736 067 981</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-meta">
+                <span>© 2024 BIGUN Agency</span>
+                <a href="kontakt.html#privacy">Polityka prywatności</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

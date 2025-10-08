@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGUN — Контакти</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">BIGUN</a>
+            <nav class="main-nav" aria-label="Основна навігація">
+                <a href="index.html">Головна</a>
+                <a href="poslugy.html">Для кандидата</a>
+                <a href="proekty.html">Для роботодавця</a>
+                <a href="pro-nas.html">Про нас</a>
+                <a href="vidguky.html">Поради</a>
+                <a href="kontakty.html" aria-current="page">Контакти</a>
+            </nav>
+            <div class="lang-switch" role="navigation" aria-label="Зміна мови">
+                <a class="lang" href="../kontakt.html">PL</a>
+                <span aria-hidden="true">•</span>
+                <a class="lang" href="../en/contact.html">EN</a>
+                <span aria-hidden="true">•</span>
+                <a class="lang active" href="kontakty.html">UA</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+            <a href="index.html">Головна</a>
+            <a href="poslugy.html">Для кандидата</a>
+            <a href="proekty.html">Для роботодавця</a>
+            <a href="pro-nas.html">Про нас</a>
+            <a href="vidguky.html">Поради</a>
+            <a href="kontakty.html" aria-current="page">Контакти</a>
+            <div class="mobile-lang-switch">
+                <a class="lang" href="../kontakt.html">PL</a>
+                <a class="lang" href="../en/contact.html">EN</a>
+                <a class="lang active" href="kontakty.html">UA</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-intro">
+                <nav class="breadcrumb" aria-label="Навігація">
+                    <a href="index.html">Головна</a>
+                    <span>/</span>
+                    <span>Контакти</span>
+                </nav>
+                <h1>Поговорімо про співпрацю</h1>
+                <p>Команда BIGUN відповідає на запити протягом одного робочого дня. Кандидати отримують персональні пропозиції, а компанії — план постачання персоналу.</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container section-intro">
+                <span class="eyebrow">Офіси</span>
+                <h2>Де нас знайти</h2>
+            </div>
+            <div class="container services-grid">
+                <article class="service-card">
+                    <h3>Бидгощ, Польща</h3>
+                    <p>ul. Kraszewskiego 1, буд. Alfa, 4 поверх</p>
+                    <p><a class="text-link" href="tel:+48736067981">+48 736 067 981</a></p>
+                    <p><a class="text-link" href="mailto:office@bigun.agency">office@bigun.agency</a></p>
+                </article>
+                <article class="service-card">
+                    <h3>Київ, Україна</h3>
+                    <p>вул. Ярославів Вал 15, 01001</p>
+                    <p><a class="text-link" href="tel:+380671234567">+380 67 123 45 67</a></p>
+                    <p><a class="text-link" href="mailto:kyiv@bigun.agency">kyiv@bigun.agency</a></p>
+                </article>
+                <article class="service-card">
+                    <h3>Берлін, Німеччина</h3>
+                    <p>Friedrichstrasse 76, 10117 Berlin</p>
+                    <p><a class="text-link" href="tel:+493012345678">+49 30 123 45 678</a></p>
+                    <p><a class="text-link" href="mailto:berlin@bigun.agency">berlin@bigun.agency</a></p>
+                </article>
+            </div>
+            <div class="container split-section">
+                <div>
+                    <h3>Завітайте до офісу BIGUN</h3>
+                    <p>Наші рецепції в Бидгощі, Варшаві та Києві відкриті для кандидатів і клієнтів. Заплануйте візит, щоб познайомитися з командою й побачити, як готуємо релокацію.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Рецепція BIGUN вітає кандидатів у Польщі" loading="lazy">
+            </div>
+        </section>
+
+        <section class="cases">
+            <div class="container section-intro">
+                <span class="eyebrow">Залишити заявку</span>
+                <h2>Забронюй дзвінок з BIGUN</h2>
+                <p>Заповни коротку форму, і ми запропонуємо час зустрічі онлайн або в офісі.</p>
+            </div>
+            <div class="container" style="display:grid;gap:40px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start;">
+                <form class="contact-form">
+                    <label>
+                        Ім’я та прізвище
+                        <input type="text" name="name" placeholder="Твоє ім’я" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="you@company.com" required>
+                    </label>
+                    <label>
+                        Телефон
+                        <input type="tel" name="phone" placeholder="+48 000 000 000">
+                    </label>
+                    <label>
+                        Тема
+                        <select name="topic" required>
+                            <option value="" disabled selected>Оберіть опцію</option>
+                            <option>Шукаю роботу</option>
+                            <option>Потрібні працівники</option>
+                            <option>Легалізація перебування</option>
+                            <option>Інше</option>
+                        </select>
+                    </label>
+                    <label>
+                        Повідомлення
+                        <textarea name="message" rows="4" placeholder="Опишіть запит"></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary">Надіслати</button>
+                </form>
+                <div class="service-card" style="background:var(--bg-medium);color:var(--text-invert);">
+                    <h3>Прямі контакти</h3>
+                    <p><strong>Пошук роботи</strong><br><a class="text-link" href="tel:+48881017295">+48 881 017 295</a><br><a class="text-link" href="mailto:jobs@bigun.agency">jobs@bigun.agency</a></p>
+                    <p><strong>Легалізація</strong><br><a class="text-link" href="tel:+48576342247">+48 576 342 247</a><br><a class="text-link" href="mailto:legal@bigun.agency">legal@bigun.agency</a></p>
+                    <p><strong>Пропозиція для бізнесу</strong><br><a class="text-link" href="tel:+48664621357">+48 664 621 357</a><br><a class="text-link" href="mailto:partners@bigun.agency">partners@bigun.agency</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container gallery-inner">
+                <div class="gallery-copy">
+                    <span class="eyebrow">Офіс</span>
+                    <h2>Завітайте до нас у Бидгощі</h2>
+                    <p>У головному офісі ми проводимо зустрічі з кандидатами та воркшопи для клієнтів. Дивись, як нас знайти.</p>
+                </div>
+                <div class="gallery-track" style="transform:none;gap:0;">
+                    <div class="gallery-item" style="flex:1 1 100%;min-height:320px;border-radius:var(--radius-l);background:linear-gradient(140deg, rgba(13,16,22,0.85), rgba(35,45,63,0.85)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80') center/cover;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="privacy">
+            <div class="container section-intro">
+                <span class="eyebrow">Політика конфіденційності</span>
+                <h2>Як ми обробляємо дані</h2>
+                <p>Ми дбаємо про безпеку твоїх даних. Запити отримують лише команди рекрутингу та продажів BIGUN.</p>
+            </div>
+            <div class="container section-grid">
+                <article class="service-card">
+                    <h3>Адміністратор</h3>
+                    <p>BIGUN Agency Sp. z o.o., ul. Kraszewskiego 1, 85-240 Bydgoszcz, NIP 5252890000.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Мета</h3>
+                    <p>Підготовка пропозицій, надання послуг та інформація про новини BIGUN.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Права</h3>
+                    <p>Доступ, виправлення, видалення, обмеження обробки та заперечення згідно з GDPR.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a class="logo" href="index.html">BIGUN</a>
+                <p>Легальна робота в Польщі та лізинг персоналу з підтримкою експертів.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <span class="footer-heading">Офіси</span>
+                    <ul>
+                        <li>Бидгощ</li>
+                        <li>Варшава</li>
+                        <li>Київ</li>
+                        <li>Берлін</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="footer-heading">Контакти</span>
+                    <ul>
+                        <li><a href="mailto:hello@bigun.agency">hello@bigun.agency</a></li>
+                        <li><a href="tel:+48736067981">+48 736 067 981</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-meta">
+                <span>© 2024 BIGUN Agency</span>
+                <a href="#privacy">Політика конфіденційності</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
